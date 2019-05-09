@@ -1,0 +1,410 @@
+/*Author: Adnan Ahmed
+Author info: adnan.ahmed0061@gmail.com*/
+
+
+/*
+
+	=====index=====
+
+	1.navigation bar section
+	2.hero section
+	3.Fusce at section
+	4.Facilisis section
+	5.Ante donec section
+	6.Blandit rhoncus section
+	7.Placerat section
+	8.footer section
+
+*/
+
+/*Gl0bal css*/
+
+section {
+	padding: 50px 0;
+}
+h1 {
+	margin: 20px 0;
+}
+
+h2 {
+	margin: 15px 0;
+}
+
+h3 {
+	margin: 15px 0;
+}
+
+p {
+	padding: 5px 0;
+	margin: 10px 0;
+}
+
+.image-center {
+	display: block;
+	margin: 0 auto;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;	
+}
+
+.flex-corner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+/*theme css*/
+
+.navbar {
+	background-color: #edeff1;
+	opacity: .94;
+}
+
+.navbar-toggler {
+    padding: .45rem .25rem .05em;
+    font-size: 1.5rem;
+    border: 2px solid #96c949;
+    background-color: transparent;
+    border-radius: .25rem;
+}
+.nav-link.js-scroll-trigger {
+	color: #31353e;
+}
+
+.nav-link.js-scroll-trigger.active {
+	background-color: #96c949;
+	border-radius: 35px;
+	padding: 4px 20px;
+	color: #fff;
+}
+.fa-flash:before, .fa-bolt:before {
+    content: "\f0e7";
+    color: #96c949;
+}
+#hero {
+	background-image: linear-gradient(#00000020,#00000020), 
+	url(../img/icrowdme-PSD---cssauthor.png);
+	background-size: cover;
+	background-position: center;
+	margin-top: 62px;
+	color: white;
+}
+
+#hero button {
+	background-color: #99c50a;
+	border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+}
+
+#home {
+	color: black;
+}
+
+#howitworks {
+	margin: 0;
+}
+
+#howitworks-a {
+	margin: 0;
+}
+
+#howitworks-b {
+	margin: 0;
+}
+
+.properties {
+	background-color: #e2f8ff;
+	padding: 2.5rem 0;
+}
+
+.properties img {
+    margin: 20% auto 0;
+}
+
+.properties h3 {
+	padding: 0 0 0 10px;
+}
+
+.properties button {
+	background-color: #26a6d1;
+	border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+}
+
+.buyer {
+	background-color: #f5f9eb;
+	padding: 2.5rem 0;
+}
+.buyer img {
+    margin: 20% auto 0;
+}
+.buyer h3 {
+	padding: 0 0 0 10px;
+}
+
+.buyer button {
+	background-color: #add136;
+	border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+}
+
+#projects button {
+	background-color: transparent;
+	border: 1px solid #b6b6b6;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #b6b6b6;
+}
+
+.card {
+    padding: 0;
+    border-radius: 15px;
+}
+
+.card-img-top {
+	height: 18rem;
+    border-top-left-radius: calc(.75rem - 1px);
+    border-top-right-radius: calc(.75rem - 1px);
+}
+
+.card-btn {
+    width: 45%;
+    position: relative;
+    right: -50%;
+    background-color: #26a6d1!important;
+    color: white!important;
+    padding: 0px 0!important;
+}
+
+footer {
+}
+
+@media (min-width: 0px) and (max-width: 575.9px) {
+	#hero button {
+	    margin: 50px 0 15px;
+	}
+	#home {
+    	padding: 50px 0 0;
+	}
+	#howitworks {
+		text-align: center!important;
+	}
+	.properties {
+	    padding: 0 0 3rem;
+	}
+	.buyer {
+	    padding: 0 0 3rem;
+	}
+	#projects {
+		padding: 0 0;
+	}
+	#pro-box {
+		text-align: center;
+	}
+	#pro-btn {
+	    margin: 15px 0;
+	    text-align: center;
+	}
+	.card {
+        padding: 10px;
+	}
+	.card-btn {
+	    top: -45px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.9px) {
+
+	#hero button {
+	    margin: 50px 0 15px;
+	}
+	#home {
+    	padding: 50px 0 0;
+	}
+	#howitworks {
+		text-align: center!important;
+	}
+	.properties img {
+	    margin: 0% 42% 0;
+	}
+	.buyer img {
+	    margin: 2% auto 0;
+	}
+	#projects {
+	    padding: 0 0 50px;
+	}
+	#pro-box {
+		text-align: center;
+	}
+	#pro-btn {
+	    margin: 15px 0;
+	    text-align: center;
+	}
+	.card-deck .card {
+	    margin-left: 2px;
+	    margin-right: 2px;
+	}
+	.card-img-top {
+    	height: 30%;
+	}
+	.card-btn {
+	    width: 61%;
+        right: -35%;
+	    top: -35px;
+	}
+	.card-text.a {
+	    height: 53%;
+	}
+	.card-body {
+    	padding: 0.5rem;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+
+	#hero {
+	    padding: 150px 0 50px;
+	}
+	#hero button {
+	    margin: 50px 0 15px;
+	}
+	#home {
+    	padding: 50px 0 0;
+	}
+	#howitworks {
+		text-align: center!important;
+	}
+	.properties img {
+	    margin: 0% 42% 0;
+	}
+	.buyer img {
+	    margin: 2% auto 0;
+	}
+	#projects {
+	    padding: 0 0 25%;
+	}
+	#pro-btn button {
+	    padding: 5px 7px;
+	    margin: 30% 0 30% 50px;
+	} 
+	.card-btn {
+	    width: 61%;
+        right: -35%;
+	    top: -35px;
+	}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.9px) {
+
+	#hero {
+	    padding: 200px 0 200px;
+	}
+	#hero button {
+	    margin: 50px 0 15px;
+	    padding: 15px 25px;
+	}
+	#home {
+    	padding: 100px 0 100px;
+	}
+	#home img {
+	    margin: 5px 0 15px;
+	}
+	#home h2 {
+	    margin: 25px 0;
+	}
+	#home p {
+	    width: 80%;
+	    margin: 0 auto;
+	}
+	.properties img {
+    	margin: 35% -25% 0;
+	}
+	#projects {
+	    padding: 0 0 50px;
+	}
+	.buyer img {
+	    margin: 45% 15px 0;
+	}
+	#howitworks-b div:nth-of-type(2) {
+	    padding: 0 0 0 25px;
+	} 
+	#pro-btn button {
+	    padding: 5px 7px;
+	    margin: 22% 0 25% 45%;
+	} 
+	.card-btn {
+	    width: 61%;
+        right: -35%;
+	    top: -35px;
+	}
+
+}
+
+@media (min-width: 1200px) {
+
+	#hero {
+	    padding: 200px 0 200px;
+	}
+	#hero button {
+	    margin: 50px 0 15px;
+	    padding: 15px 25px;
+	}
+	#home {
+    	padding: 100px 0 100px;
+	}
+	#home img {
+	    margin: 5px 0 15px;
+	}
+	#home h2 {
+	    margin: 25px 0;
+	}
+	#home p {
+	    width: 80%;
+	    margin: 0 auto;
+	}
+	.properties img {
+    	margin: 35% -25% 0;
+	}
+	#projects {
+	    padding: 0 0 50px;
+	}
+	.buyer img {
+	    margin: 45% 15px 0;
+	}
+	#howitworks-b div:nth-of-type(2) {
+	    padding: 0 0 0 25px;
+	} 
+	#pro-btn button {
+	    padding: 5px 7px;
+	    margin: 18% 0 22% 50%;
+	} 
+	.card-btn {
+	    width: 61%;
+        right: -35%;
+	    top: -35px;
+	}
+}
